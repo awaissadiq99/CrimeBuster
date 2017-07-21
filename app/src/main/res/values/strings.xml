@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Crime Buster</string>
+    <string name="city_prompt">Choose a City</string>
+    <string name="menu1">Logout</string>
+    <string name="refresh">Refresh</string>
+    <string name="capture_crime">Capture Crime</string>
+    <string name="gallery">Gallery</string>
+    <string name="server">Get Data From Server</string>
+    <string name="record_crime">Record Crime</string>
+    <string name="capture_image">Capture Image</string>
+    <string name="capture_video">Record Video</string>
+
+
+
+
+    <string-array name="city_arrays">
+        <item>====----- Select City -----====</item>
+        <item>Jamshoro</item>
+        <item>Karachi</item>
+        <item>Kotri</item>
+        <item>Larkana</item>
+        <item>Mehar</item>
+        <item>Mithani</item>
+        <item>Naushara</item>
+        <item>hyderabad</item>
+        <item>karachi</item>
+
+
+    </string-array>
+</resources>

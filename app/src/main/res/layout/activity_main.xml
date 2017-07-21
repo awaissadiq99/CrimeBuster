@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainactivtybg"
+    tools:context="com.crimebusters.crimebuster.MainActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/section1"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:text="@string/record_crime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCapture"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_capture"
+            android:drawableLeft="@drawable/camera"
+            android:onClick="recordCrime"
+            />
+        <Button
+            android:text="@string/gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnGallery"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_capture"
+            android:drawableLeft="@drawable/gallery"
+
+            />
+        <Button
+            android:text="@string/server"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnServer"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_capture"
+            android:drawableLeft="@drawable/server"
+
+            />
+
+
+    </LinearLayout>
+    <View
+        android:id="@+id/View07"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_height="2dip"
+        android:background="#eacc20"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/section1"
+        />
+</RelativeLayout>
